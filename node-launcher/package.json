@@ -1,0 +1,28 @@
+{
+  "name": "build-launcher",
+  "version": "0.0.1",
+  "description": "A command-line tool for launching a build tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ifyourtypethisinitwilllaunchyournodemodule"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://USERNAME@bitbucket.org/YOUR-URL.git"
+  },
+  "author": "Blumed",
+  "bin": {
+    "hive": "./index.js"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://bitbucket.org/USERNAME/YOUR-URL",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "figlet": "^1.2.0",
+    "fs-extra": "^0.30.0",
+    "inquirer": "^1.2.2",
+    "promise": "^7.1.1",
+    "shelljs": "^0.7.4",
+    "supports-color": "^3.1.2"
+  }
+}
